@@ -1,7 +1,7 @@
 # 🧮 Complex Numbers Calculator
 
 A simple web application for working with complex numbers.  
-This project was created as a university assignment and later improved for portfolio purposes.  
+This project was created as a university assignment.  
 
 ## 🚀 Features
 - Addition, subtraction, multiplication, and division of complex numbers  
