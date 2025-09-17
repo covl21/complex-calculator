@@ -17,10 +17,8 @@ This project was created as a university assignment and later improved for portf
 
 ## 📸 Preview
 ![App Screenshot](screenshot.png)  
-*(add a screenshot of your calculator page and save it as `screenshot.png` in the repo root)*  
+ 
 
 ## 🔗 Live Demo
-👉 [Try it on GitHub Pages](https://username.github.io/complex-calculator/)  
-*(replace `username` and repo name with yours after deployment)*  
-
-## 📂 Project Structure
+👉 [Try it on GitHub Pages](https://covl21.github.io/complex-calculator/calculator.html)  
+  
