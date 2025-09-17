@@ -15,6 +15,14 @@ This project was created as a university assignment.
 - CSS3 (separate styles for calculator & converter)  
 - JavaScript (DOM manipulation, math operations)  
 
+## 💡 Usage
+1. Enter the real and imaginary parts of two complex numbers.  
+2. Choose an operation (+, −, ×, ÷).  
+3. See the result displayed.  
+4. Alternatively, input a complex number in algebraic form (x+iy) and convert it to trigonometric or exponential form.  
+
+---
+
 ## 📸 Preview
 ![App Screenshot](screenshot.png)  
  
