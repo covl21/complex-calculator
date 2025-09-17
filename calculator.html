@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калькулятор комплексних чисел</title>
+<link rel="stylesheet" href="calculator.css">
+<link rel="stylesheet" href="converter.css">
+</head>
+<body>
+
+<div class="calculator">
+  <h2>Калькулятор</h2>
+  <input type="text" id="real1" placeholder="Введіть дійсну частину першого числа">
+  <input type="text" id="imaginary1" placeholder="Введіть уявну частину першого числа">
+  <input type="text" id="real2" placeholder="Введіть дійсну частину другого числа">
+  <input type="text" id="imaginary2" placeholder="Введіть уявну частину другого числа">
+  <button onclick="add()">+</button>
+  <button onclick="subtract()">-</button>
+  <button onclick="multiply()">*</button>
+  <button onclick="divide()">/</button>
+  <p id="result"></p>
+</div>
+
+<div class="converter">
+  <h2>Конвертер алгебраічної форми комплексного числа</h2>
+  <p>Введіть комплексне число в алгебраїчній формі z = (x+iy):</p>
+  <input type="text" id="algebraicInput" placeholder="Введіть комплексне число в алгебраїчній формі">
+  <button onclick="convertToTrigonometric()">Перетворити у тригонометричну форму</button>
+  <button onclick="convertToExponential()">Перетворити у показникову форму</button>
+  <p id="convertedResult"></p>
+</div>
+
+<script src="calculator.js"></script>
+<script src="converter.js"></script>
+
+</body>
+</html>
